@@ -1,5 +1,12 @@
 This is 3D printed hexapod that I build, it runs on Raspberry Pi, uses 18 servo motors for movement and is controlled from app on the phone. I started this project about year ago and didn't visit it for quite some time but I decided that it's still worth sharing because someone might want find models or code (communication between Raspberry Pi and servo control board was kinda tricky for me) useful. 
 
+Here are some pictures: 
+https://imgur.com/a/LP6Iy2R?nc=1
+
+And here are some videos: 
+https://www.youtube.com/watch?v=-9L5q-5OcWs
+https://www.youtube.com/watch?v=_HX3u8fKZZM
+
 Main goals of this project were:
 -building hexapod that is running on Raspberry Pi (there are a lot of them running on arduinos but I wanted to try building one on RPi and that project was my way of learning python)
 -creating really affordable robot (most of the things used in my robot are really cheap, even 18 servo motors shouldn't be something out of reach for hobbyist)
