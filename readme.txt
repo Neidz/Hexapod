@@ -1,4 +1,4 @@
-Update 20.03.2022: What the hell is that code. If you want to use it then go ahead, it will work... kinda. No idea what past me was thinking writing it.
+<b>Update 20.03.2022: What the hell is that code. If you want to use it then go ahead, it will work... kinda. No idea what past me was thinking writing it.</b>
 
 This is 3D printed hexapod that I build, it runs on Raspberry Pi, uses 18 servo motors for movement and is controlled from app on the phone. I started this project about year ago and didn't visit it for quite some time but I decided that it's still worth sharing because someone might want find models or code (communication between Raspberry Pi and servo control board was kinda tricky for me) useful. 
 
@@ -14,7 +14,7 @@ Main goals of this project were:
 -creating really affordable robot (most of the things used in my robot are really cheap, even 18 servo motors shouldn't be something out of reach for hobbyist)
 
 
-#3D printed parts
+<h1>3D printed parts</h1>
 
 If you want to print that hexapod you will have to print:
 -Base in 3 parts (Split_base_1.stl, Split_base_2.stl, Split_base_3.stl) or if you have large 3d printer you can connect parts in any program that allows stl manipulations and print is as one
@@ -29,7 +29,7 @@ If you want to print that hexapod you will have to print:
 You have to print all leg parts 3 times and then print them 3 more times after mirroring
 I printed all the parts with PLA, 0,1mm layer height worked best for overhangs but you can probably go with 0,2mm, all parts other than cover sadly need some supports
 
-#Software
+<h1>Software</h1>
 
 I wrote the code in python and it's meant to be run on Raspberry Pi (i used 3b+), I'm uploading this project some time after I actually created it so the way robot is getting all the commands is quite weird but basically:
 -raspberry pi runs 2 programs, one is called Hexapod_server.py and it starts requestHandler which constantly writes all requests it's getting into Requests.txt, 
@@ -41,7 +41,7 @@ Setup:
 -in Hexapod_server.py you have to change "Change it to your ip" in line 30 to... well, your ip
 -in app you have to also pass your ip and click "Set"
 
-#Hardware
+<h1>Hardware</h1>
 
 -raspberry pi of your choice (I used 3b+ here)
 -buck converter that can handle at least 10A at 6,5V for all 18 servos (I used 300W 20A buck converter from aliexpress and it worked fine)
