@@ -1,3 +1,5 @@
+# this will not be used, just a template for how it worked
+
 import serial
 import time
 
