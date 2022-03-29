@@ -6,7 +6,7 @@
 <a>https://imgur.com/a/LP6Iy2R?nc=1</a>
 
 <h4>And here are some videos</h4>
-<a>https://www.youtube.com/watch?v=-9L5q-5OcWs</a>
+<a>https://www.youtube.com/watch?v=-9L5q-5OcWs</a> </br>
 <a>https://www.youtube.com/watch?v=_HX3u8fKZZM</a>
 
 <h4>Main goals of this project were:</h4>
@@ -41,7 +41,7 @@ Not the best solution but at the time this was the best things that I came up wi
 <ul>
 <li>in Hexapod_server.py you have to change "Change it to your ip" in line 30 to... well, your ip</li>
 <li>in app you have to also pass your ip and click "Set"</li>
-</ul
+</ul>
 <h1>Hardware</h1>
 <ul>
 <li>raspberry pi of your choice (I used 3b+ here)</li>
