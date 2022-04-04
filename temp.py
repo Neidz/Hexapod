@@ -12,9 +12,9 @@ if __name__ == '__main__':
 
 fastsleep = 0.5
 base = 1500
-p2 = p3 = p5 = p6 = p8 = p9 = p11 = p12 = p14 = p15 = p17 = p18 = 1500
-p1 = p4 = p7 = 1650
-p10 = p16 = p13 = 1350
+p1 = p4 = p7 = 1650 # left side motors at the edges
+p10 = p16 = p13 = 1350 # right side motors at the edges
+p2 = p3 = p5 = p6 = p8 = p9 = p11 = p12 = p14 = p15 = p17 = p18 = 1500 # rest of the motors
 change = 350
 change2 = 170
 change3 = change2*2
