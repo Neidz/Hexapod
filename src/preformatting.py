@@ -11,6 +11,18 @@ import config
 #     bytesize=serial.EIGHTBITS,
 # )
 
+# in my robot legs on the left side of the robot are mirrored version of those on the right which
+# in result makes few of the parts move in opposite direction than what is expected so I'm changing them here
+def fix_directions(command):
+    command["angle2"] = -command["angle2"]
+    command["angle3"] = -command["angle3"]
+    command["angle8"] = -command["angle8"]
+    command["angle9"] = -command["angle9"]
+    command["angle14"] = -command["angle14"]
+    command["angle15"] = -command["angle15"]
+    return command
+
+
 # limits each axis angle in command to not crash into each other
 def apply_limits(command):
     for axis, value in command.items():
@@ -28,7 +40,9 @@ def translate_command(command):
     return command
 
 
+# combines all the formating
 def preformat(command):
+    fix_directions(command)
     apply_limits(command)
     translate_command(command)
     return command
