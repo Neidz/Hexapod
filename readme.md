@@ -1,4 +1,4 @@
-<b>Update 20.03.2022: What the hell is that code. If you want to use it then go ahead, it will work... kinda. No idea what past me was thinking writing it.</b>
+<b>Update: Well, this code is really bad but if you still want to use it then go ahead, it will work... kinda. No idea what past me was thinking writing it.</b>
 
 <p>This is 3D printed hexapod that I build, it runs on Raspberry Pi, uses 18 servo motors for movement and is controlled from app on the phone. I started this project about year ago and didn't visit it for quite some time but I decided that it's still worth sharing because someone might want find models or code (communication between Raspberry Pi and servo control board was kinda tricky for me) useful.</p>
 
